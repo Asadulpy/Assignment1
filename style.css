@@ -204,4 +204,30 @@ margin: 15px 0 5px;
 .price-card-2 li{
     margin-bottom: 12px;
     color: white;
+
 }
+
+/* pricing button style */
+.price-button{
+    width: 100%;
+    padding: 14px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.price-card-1 .price-button,
+.price-card-3 .price-button{
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
+    
+}
+.price-card-2 .price-button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+
+}
+/* pricing section end */
