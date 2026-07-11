@@ -1,0 +1,1 @@
+Create a Sponsors section for a DevConf 2026 conference website using HTML and CSS. The page already contains a hero, speakers, pricing, and footer sections. Design a modern responsive sponsor section with four sponsor cards, company logos, names, descriptions, hover effects, and a blue-white theme matching the website.

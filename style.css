@@ -38,16 +38,36 @@ ul li a{
 
 .common-button{
     padding: 12px 24px;
-    border: none;
-    background-color: #2d5cff;
-    color: rgba(255, 255, 255, 1);
     border-radius: 8px;
     cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+/* Blue Button */
+
+.primary-button{
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+
+
+/* White Outline Button */
+
+.outline-button{
+    background-color: white;
+    color: #2563eb;
+    border: 1px solid #2563eb;
 }
 
 /* hero section start */
 .hero{
-    background-image: url(./images/banner.jpg);
+    background:
+    linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)),
+    url("./images/banner.jpg");
     height: 700px;
     background-size: cover;
     background-position: center;
@@ -68,6 +88,8 @@ ul li a{
     font-weight: bold;
     margin-bottom: 25px;
 }
+
+
 .hero-content p{
     color: white;
     font-size: 18px;
@@ -208,28 +230,11 @@ margin: 15px 0 5px;
 }
 
 /* pricing button style */
-.price-button{
-    width: 100%;
-    padding: 14px;
-    border-radius: 8px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 20px;
+.pricing .common-button{
+    width:100%;
+    margin-top:20px;
 }
 
-.price-card-1 .price-button,
-.price-card-3 .price-button{
-    background-color: white;
-    color: #2563eb;
-    border: 1px solid #2563eb;
-    
-}
-.price-card-2 .price-button{
-    background-color: #2563eb;
-    color: white;
-    border: none;
-
-}
 /* pricing section end */
 
 /* sponsor section start-AI generated */
@@ -349,7 +354,7 @@ footer{
 /* Footer Logo */
 
 .footer-logo img{
-    width: 140px;
+    width: 80px;
     height: auto;
 }
 
