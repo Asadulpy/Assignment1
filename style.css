@@ -25,7 +25,7 @@ nav{
 
 }
 /* navigation menu */
-ul{
+nav ul{
     display: flex;
     list-style: none;
     gap: 30px;
@@ -107,7 +107,7 @@ ul li a{
     height: 280px;
     object-fit: cover;
 }
-.speaker info{
+.speaker-info{
     padding: 20px;
 
 }
@@ -123,4 +123,85 @@ font-weight: bold;
 .speaker-info p{
     color: #666;
     font-size: 15px;
+}
+/* meet the speaker section end */
+
+/* pricing section start */
+.pricing{
+    padding: 100px 0;
+    text-align: center;
+}
+.pricing h2{
+    font-size: 48px;
+    margin-bottom: 10px;
+    color: #111827;
+}
+.pricing-subtitle{
+    font-size: 16px;
+    color: #6b7280;
+    margin-bottom: 50px;
+}
+.pricing-box{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 30px;
+
+}
+
+.price-card-1,
+.price-card-2,
+.price-card-3{
+    padding: 30px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+.price-card-1,
+.price-card-3{
+    background-color: #fff;
+}
+.price-card-2{
+    background-color: #0f172a;
+    color: white;
+}
+.plan{
+    font-size: 12px;
+    font-weight: bold;
+    color: #2563eb;
+}
+.price-card-2 .plan{
+    color: #60a5fa;
+
+}
+
+.price-card-1 h3,
+.price-card-2 h3,
+.price-card-3 h3{
+font-size: 48px;
+margin: 15px 0 5px;
+}
+.price-card-1 small,
+.price-card-3 small{
+    color: #6b7280;
+}
+.price-card-2 small{
+    color: #cbd5e1;
+}
+
+/* price card list */
+.price-card-1 ul,
+.price-card-2 ul,
+.price-card-3 ul{
+    display: block;
+    margin: 30px 0;
+    padding-left: 20px;
+}
+.price-card-1 li,
+.price-card-3 li{
+    margin-bottom: 12px;
+    color: #374151;
+}
+.price-card-2 li{
+    margin-bottom: 12px;
+    color: white;
 }
