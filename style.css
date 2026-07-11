@@ -333,4 +333,66 @@ margin: 15px 0 5px;
 
 /* sponsor section end */
 
+/* footer section start */
+
+footer{
+    background-color: #0f172a;
+    padding: 40px 0 20px;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Footer Logo */
+
+.footer-logo img{
+    width: 140px;
+    height: auto;
+}
+
+/* Social Media */
+
+.social-media-links{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.social-media-links a{
+    display: inline-flex;
+    text-decoration: none;
+}
+
+.social-media-links img{
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+    
+}
+/* Divider */
+
+footer hr{
+    border: none;
+    border-top: 1px solid #334155;
+    width: 90%;
+    max-width: 1200px;
+    margin: 30px auto 20px;
+}
+
+/* Copyright */
+
+.footer-bottom{
+    text-align: center;
+}
+
+.footer-bottom p{
+    color: #94a3b8;
+    font-size: 14px;
+    font-family: "Arima", system-ui;
+}
+
+/* footer section end */
 
